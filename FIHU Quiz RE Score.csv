@@ -1,0 +1,303 @@
+Score,Timestamp,Team Name ,University Name,Country,"Question 1
+
+After conducting your I.A. test you obtain the data from the accelerometer and you realize that the data matches perfectly with the following function a(t) in g. Calculate the mean deceleration force excreted from the I.A. to the m=300kg mass used in the test. Consider g=9.81 m/s^2
+
+Answer in kN using three significant digits. 
+
+Answer Format: Rounded to three significant digits
+Example: 12.678 → 12.7","Question 2
+
+The following diagram is a parody of a phase diagram, describing the mixture of bad-good decisions. Considering a 30% of good decisions at a blood-alcohol content of 0.1%, calculate the 'calling an ex' percentage in the good decisions phase. Use the lever's rule. Answer in a percentage (for example 32 instead of 0.32) using 3 significant digits (The following diagram is not drawn to scale).  
+
+Answer Format: Rounded to three significant digits
+Example: 28.743 → 28.7","Question 4
+
+How many boxes can you stack? (All the boxes are exactly the same and  protrude the same amount)","Question 5
+
+Does the following structure roll-over? 
+
+Shaft: Density 7850 kg/m^3, Mass 13.32 g
+Plate: Density 11000 kg/m^3, Mass 254.56 g
+Hinge: Density 2810 kg/m^3, Mass 10.44 g
+Pin: Density 7900 kg/m^3, Mass 8.71 g
+
+Sides A ‖ B (Parallel)
+Sides C ‖ D (Parallel)
+
+PDF Drawings for better visibility ","Question 6
+
+Which of the following statements are true?","Question 7
+
+Your team uses a square beam that is 13 mm as a brake pedal, with the master cylinders attached at 40 mm from the pivot point. The length of the pedal is 17 cm, and it is made from aluminum 7075 T6. Is the pedal rule compliant?  ","Question 8
+
+A bucket containing antifreeze has two small holes, labeled 1 and 2, from which two laminar streams emerge. The height of the liquid column in the bucket is H=800mm, and the height of hole (1) from the bottom of the bucket is h1​=50cm. What is the height h2​ of hole (2) from the bottom of the bucket, assuming the two streams travel equal horizontal distances x?  (assume ideal conditions)","Question 9
+
+ An M8 threaded ISO 4762 socket head cap screw is used in a rocker arm (thickness 50 mm) located in the suspension assembly of a rule compliant FS car. The socket head cap screw is fastened with a DIN 980 (maximum height) lock nut. 
+
+What is the minimum length (mm) of the fastener? 
+
+Provide your answer in millimeters, rounded to the nearest decimal.  
+
+Answer Format: X.X (Rounded to one decimal place)
+Example: 10.463 → 10.5","Question 10
+
+Identify the maximum permissible metric bolt size, conforming to DIN 931 Grade 8.8 specifications, for the mounting assembly of the front wing located ahead of the front bulkhead. The mounting design incorporates one bolt per side of the bulkhead, with each bolt secured through two aligned brackets (double shear). Ensure the design adheres to Formula Student regulations. Assuming you are using Standard IA.
+
+Answer Format: MXX
+Example: M9  
+","Question 11
+You have a spring-damper combination with 100mm of travel. What is the minimum possible Motion Ratio (Wheel/Spring) you can have in your suspension system?
+Assume a conventional pushrod suspension system where one spring-damper is used per wheel.
+(round your answer to one decimal)
+Answer Format: X.X (Rounded to one decimal place)
+Example: 0.729 → 0.7
+","Question 12
+After assembling your vehicle, you decide to remove the 10mm bump stop from the dampers (Question 11) to increase the travel of your suspension (using the same motion ratio you found in Question 11).
+You are using Hoosier 18.0x6.0-10 R20 FSAE H43100R20 tires on the front axle, and your front wing is 15mm shorter than the maximum allowable length per the Formula Student Rules.
+Additional information:
+Your car's wheelbase is 1.5 meters. The braking pitch center is located on the rear axle. At maximum braking, the front springs are fully compressed. At standstill, the spring is at 50% compression.
+What is the minimum height of the frontmost point of the front wing after removing the bump stop to ensure the front wing does not contact the ground during maximum braking in a straight track?
+Answer Format: X.X (Rounded to one decimal place)
+Example: 12.457 → 12.5","Question 13
+
+You test your Formula Student car's limits by racing it on an infinite dragstrip located at the highest point of Mount Olympus. During this high-altitude test, your car eventually reaches a maximum speed.
+
+Encouraged by the results, you take your car to another infinite dragstrip at sea level. You repeat the same test under identical car conditions (ignoring rolling resistance and other factors), and your car achieves a different maximum speed.
+
+Air density at Mount Olympus: 0.9 kg/m^3
+Air density at sea level: 1.225 kg/m^3
+Drag coefficient: 0.70
+Car mass: 250 kg
+
+What is the ratio of the maximum speeds the car achieved in the two dragstrips (uolympus/usea), rounded to one decimal place? 
+
+Answer Format: X.X (Rounded to one decimal place)
+Example: 1.783 → 1.8","Question 14
+Two cars, A and B, are traveling on the same straight road. Car A has an initial velocity of 120 km/h and accelerates at a constant rate of 1 m/s^2. Car B has an initial velocity of 160 km/h and decelerates at a constant rate of 2 m/s^2. The two cars are initially separated by a distance of 100 meters. At some point, the two cars collide in a perfectly inelastic collision. Assume that Car B has a mass twice that of Car A (mass of B equals 2 times mass of A) and that the acceleration and deceleration apply only until the moment of collision. Both cars are moving in the same direction.
+Calculate the velocities (m/s) of both cars immediately after the collision and  round to the nearest integer
+Answer Format: Va, Vb 
+Example: 42, 42","Question 15
+
+Which of the geometries has a larger area and which has a larger perimeter?","Question 16
+
+Your team was unable to submit the VSV for FSGR on time, so you managed to upload it with a 4-day delay. Additionally, you submitted the Design Spec Sheet 2 days before the submission deadline and the EDR with a 5-day delay. 
+
+What is the maximum number of points your team can score in FSGR after the point deductions for late submission penalties? 
+
+Round to one decimal 
+
+Answer Format: X.X (Rounded to one decimal place)
+Example: 431.256 → 431.3","Question 17
+Your team is participating in Formula Student Greece 2025, and you have decided to allocate the dynamic event runs as shown in the table below.
+You now have the following proposals for the remaining runs. Determine which of the proposed driver allocation scenarios are possible for your team to follow.","Question 18
+
+What type of suspension is shown in the picture below ?","Question 19
+
+You have finally secured a sponsor to create a custom baseline FS Rules-compliant steel tube for this year's car's Main Hoop. You requested the sponsor to manufacture the lightest possible rule-compliant tube with the minimum possible thickness.
+
+You perform a 3-point bending test on the custom manufactured tube. The tube is placed on two supports that are 500mm apart and the actuator is applying a force of 2.5kN in the exact middle of the two supports. 
+
+Calculate:
+
+The maximum stress (MPa), rounded to the nearest ten.
+The maximum deflection (mm), rounded to no decimal.
+Answer format: Maximum stress (MPa), maximum deflection (mm)
+
+Answer Format: Stress rounded to the nearest ten, deflection to no decimals
+Example: 542.7, 7.9 → 540, 8","Question 21
+
+In the FS Greece competition, Team A and Team B collected the same amount of points after all the static and dynamic events. To decide the winner, a drag race at the Acceleration straight was organized. 
+
+Both teams use identical vehicles of 270kg, use 40.5cm diameter tires and they have the following specifications:  
+
+Team A’s car: 75 horsepower (hp) @7500rpm and 100 Newton-meters (Nm) of torque @ 5000rpm.
+Team B’s car: 100 horsepower (hp) @7500rpm and 75 Newton-meters (Nm) of torque @ 5000rpm.
+
+Both Hp and Torque refer to Peak Values. 
+Choose for each different occasion described which car will finish first. 
+
+There are two different Tire brands available:
+Siris tire coefficient: 0.7
+Athena Tire coefficient: 0.85
+g=9.81m/s^2 [Both cars have Direct drive (No gearbox) operate with a clutch coupling and Final Drive ratio of 1. Both cars use Siris tires with typical track conditions.]","Question 21
+
+In the FS Greece competition, Team A and Team B collected the same amount of points after all the static and dynamic events. To decide the winner, a drag race at the Acceleration straight was organized. 
+
+Both teams use identical vehicles of 270kg, use 40.5cm diameter tires and they have the following specifications:  
+
+Team A’s car: 75 horsepower (hp) @7500rpm and 100 Newton-meters (Nm) of torque @ 5000rpm.
+Team B’s car: 100 horsepower (hp) @7500rpm and 75 Newton-meters (Nm) of torque @ 5000rpm.
+
+Both Hp and Torque refer to Peak Values. 
+Choose for each different occasion described which car will finish first. 
+
+There are two different Tire brands available:
+Siris tire coefficient: 0.7
+Athena Tire coefficient: 0.85
+g=9.81m/s^2 [Both cars have Direct Drive (No gearbox) operate with a clutch coupling and Final Drive ratio of 3:1. Both cars use Athena tires with typical track conditions.]","Question 21
+
+In the FS Greece competition, Team A and Team B collected the same amount of points after all the static and dynamic events. To decide the winner, a drag race at the Acceleration straight was organized. 
+
+Both teams use identical vehicles of 270kg, use 40.5cm diameter tires and they have the following specifications:  
+
+Team A’s car: 75 horsepower (hp) @7500rpm and 100 Newton-meters (Nm) of torque @ 5000rpm.
+Team B’s car: 100 horsepower (hp) @7500rpm and 75 Newton-meters (Nm) of torque @ 5000rpm.
+
+Both Hp and Torque refer to Peak Values. 
+Choose for each different occasion described which car will finish first. 
+
+There are two different Tire brands available:
+Siris tire coefficient: 0.7
+Athena Tire coefficient: 0.85
+g=9.81m/s^2 [Both cars have a basic 4-speed transmission (2.52, 1.88, 1.47, 1.00) operate with a clutch coupling and Final Drive ratio of 3:1. Both cars use Athena tires with typical track conditions.  Both drivers use the first and second gear and they change gear 1.5 second after the start of the race.]","Question 22
+
+Considering the max power output of your engine is 45kW and 30% of the max power must be dissipated by the cooling system, calculate the effective heat exchange area of your radiator. Use the simple formula for a counter-flow heat exchanger (any correction factor should be negligible and set to 100%), that uses the logarithmic mean temperature difference. Consider everything mentioned below to be known. Answer in m^2 using 2 significant digits. 
+
+Coolant input temperature 105deg, 
+Coolant output temperature 95deg, 
+Air input temperature 30deg, 
+Air output temperature 58deg, 
+Heat transfer coefficient U: 1/U=1/hwater+1/hair, 
+hwater=2000 W/(m^2K)
+hair=90W/(m^2K)  
+
+Answer Format: Two significant digits
+Example: 0.03762 → 0.038","Question 23
+
+Consider the following symbol and corresponding footprint.","Question 24
+
+An analog signal is to be encoded and transmitted using a digital system. The frequencies contained in the signal reach up to 6 kHz. The quantization error must be less than 1% of the signal's maximum value. Assuming the sampling theorem is satisfied, find the minimum transmission rate in bits per second. Answer in bits/s. ","Question 25
+
+Consider the system represented by the following difference equation:
+y[n] = x[n] + (1/2)*( 5y[n − 1] + 3y[n − 2] )
+where x th [n] and y[n] represent the nth samples of the input and output signals, respectively. Which are the poles of the system?","Question 26
+
+Your accumulator consists of 2 Segments in series (14s10p) and you are using the 21700 P45B as your cell with the maximum voltage as stated in the datasheet. At some point, the voltage at the TSMPs is 55V. Which sentence is true?","Question 27
+
+Your team designs your first electric vehicle after many successful years in the CV category. Your only data to help you design your new accumulator are last year’s efficiency consumption. Your team managed to finish the endurance (22km) using 11L/100km (RON98). Your powertrain consisted of an engine with combustion efficiency of 96% and 70% losses due to thermal efficiency of the ICE, and total drivetrain mechanical losses of 10% . This year’s powertrain consists of an inverter with an efficiency of 98%, a single electric motor with an efficiency of 94% and the same mechanical losses as last year’s car (neglecting any additional mechanical or electrical losses) . You decided to use the 21700 P45B cell with the maximum cell voltage as stated in the datasheet. 
+
+Which of the following configurations is rule compliant and satisfies your total energy requirement.","Question 28
+
+Using the configuration and data of the EV (Car specifications, Accumulator, etc.) provided in Question 27 , determine the maximum number of acceleration runs achievable, given a terminal velocity of 30 m/s measured at the finish line. Assume a driver mass equal to the minimum FIA requirement for Formula 1 drivers in the 2025–2026 season, and a vehicle mass of 210 kg. For the sake of this calculation, consider that energy consumption occurs solely from the start line to the finish line.
+
+Example Answer: 1024","Question 29
+
+Which equation describes the gain?"
+40.5,15:39,HorsePower Hannover,Leibniz Uni Hannover,Germany,5,-1.5,-1,10,3,2,3,-2,-2.5,4,-2.5,-1.5,5,1,5,5,1,-2.5,0,0,0,-1.5,2,-1.5,2,-4,13,0,0
+17.0,15:00,eMotion Racing,UAS Ruhr West,Germany,-2.5,-1.5,-1,10,-1.5,2,3,-2,-2.5,4,-2.5,-1.5,-2.5,-0.5,-2.5,-2.5,-0.5,-2.5,3,3,3,3,2,-1.5,2,-4,13,-2.5,3
+32.5,15:35,LA eRacing,UAS Landshut,Germany,-2.5,3,-1,10,-1.5,-1,3,4,-2.5,4,-2.5,-1.5,5,-0.5,5,5,1,-2.5,0,0,0,3,0,-1.5,0,-4,13,-2.5,0
+45.5,14:50,YTU Racing E,Yıldız Technical University,Turkey,-2.5,3,2,10,3,-1,3,4,-2.5,4,-2.5,-1.5,5,1,-2.5,5,1,5,-1.5,-1.5,-1.5,3,-1,3,2,-4,13,-2.5,3
+52.5,15:47,Formula Electric Belgium,KULeuven and Thomas More,Belgium,5,3,-1,10,-1.5,2,3,-2,0,4,5,-1.5,-2.5,1,-2.5,5,1,-2.5,0,0,0,3,2,-1.5,2,8,13,-2.5,3
+45.5,15:23,HofSpannung Motorsport e.V.,UAS Hof,Germany,-2.5,3,-1,10,3,2,3,4,-2.5,4,-2.5,3,-2.5,-0.5,5,5,-0.5,5,0,0,0,3,2,0,-1,-4,13,-2.5,0
+46.0,15:04,Road Arrow,University of Belgrade,Serbia,-2.5,3,2,-5,3,2,3,4,0,4,-2.5,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,-4,13,0,3
+66.5,15:06,Team wob-racing.,UAS Ostfalia,Germany,5,3,2,10,-1.5,2,3,4,-2.5,4,-2.5,3,-2.5,1,5,5,1,5,3,-1.5,-1.5,3,2,-1.5,2,-4,13,5,3
+80.0,14:53,NTHU Racing,National Tsing Hua University,Taiwan,-2.5,3,2,10,3,2,3,4,5,4,-2.5,3,5,1,5,5,1,5,3,3,-1.5,3,-1,-1.5,2,-4,13,5,3
+92.0,15:06,TU Brno Racing,Brno University of Technology,Czech Republic,5,3,-1,10,3,2,3,4,5,4,5,3,5,1,5,5,1,-2.5,0,0,0,3,2,3,2,8,13,-2.5,3
+55.0,14:58,Prom Racing,National Technical University of Athens,Greece,5,3,2,0,-1.5,-1,3,-2,-2.5,4,5,3,5,1,5,5,1,-2.5,-1.5,-1.5,-1.5,3,2,-1.5,2,8,13,-2.5,3
+69.0,15:15,Centaurus racing team,University Of Thessaly,Greece,-2.5,3,2,10,3,2,3,4,0,4,5,3,5,1,5,5,1,-2.5,0,0,0,-1.5,2,-1.5,2,-4,13,5,3
+69.5,15:27,FS Team Tallinn,Tallinn TU UAS,Estonia,-2.5,3,-1,10,3,-1,3,4,5,4,5,3,5,1,5,5,1,-2.5,3,3,-1.5,3,2,-1.5,2,-4,13,-2.5,3
+77.5,15:51,TUfast Racing Team,TUMunich,Germany,5,3,2,0,-1.5,2,3,-2,-2.5,4,5,3,5,1,5,5,1,5,-1.5,-1.5,3,3,2,-1.5,2,8,13,5,3
+66.5,15:04,Orion Racing India,K J Somaiya College of Engineering,India,-2.5,3,2,10,3,2,3,4,-2.5,4,-2.5,3,-2.5,1,5,5,1,-2.5,3,3,3,3,-1,-1.5,2,8,13,-2.5,3
+43.5,15:37,Baltic Racing,UAS Stralsund,Germany,0,3,-1,10,-1.5,2,3,4,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,3,3,3,0,-1,-1.5,2,-4,0,0,3
+44.0,15:39,UniNa Corse - Squadra Corse Federico II,Università degli studi di napoli Federico II,Italy,-2.5,3,2,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,-0.5,5,5,1,-2.5,3,3,-1.5,3,-1,-1.5,2,8,0,0,3
+60.5,15:13,Rennteam Uni Stuttgart,Universität Stuttgart,Germany,5,3,2,-5,-1.5,2,3,4,5,4,-2.5,3,5,1,5,5,1,5,0,0,0,3,2,0,2,-4,13,-2.5,3
+46.0,15:36,Rennstall Esslingen,Hochschule Esslingen,Germany,-2.5,3,2,10,3,-1,3,4,0,4,-2.5,3,5,1,-2.5,5,1,-2.5,0,0,0,3,0,-1.5,2,-4,13,-2.5,3
+36.5,15:09,FaSTTUBe,TU Berlin,Germany,5,-1.5,-1,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,-2.5,1,5,5,1,-2.5,3,3,-1.5,3,2,-1.5,2,-4,13,-2.5,0
+27.0,15:47,GET racing,Technische Universität Dortmund,Germany,-2.5,3,-1,10,-1.5,2,3,-2,-2.5,4,0,3,-2.5,1,5,-2.5,1,-2.5,3,-1.5,-1.5,0,2,-1.5,2,-4,13,-2.5,3
+30.5,14:55,Eni Metz Racing Team,Ecole Nationale d'Ingénieurs de Metz,FRANCE,-2.5,0,-1,10,-1.5,2,3,-2,0,4,0,3,5,1,5,-2.5,-0.5,0,3,3,3,3,-1,-1.5,-1,-4,0,0,3
+24.5,14:52,DEMOCRITUS RACING TEAM,DEMOCRITUS UNIVERSITY OF THRACE,GREECE,-2.5,-1.5,-1,0,-1.5,-1,3,4,-2.5,-2,0,3,5,1,-2.5,5,1,-2.5,3,3,-1.5,-1.5,2,3,2,-4,13,-2.5,3
+17.0,14:46,Formula Student Bizkaia,University of the basque country (UPV/EHU),Spain,5,-1.5,2,0,-1.5,2,3,4,-2.5,4,0,3,5,1,5,-2.5,1,-2.5,0,0,0,3,-1,-1.5,2,-4,-6.5,-2.5,3
+37.5,15:18,UPC ecoRacing,"Escola Superior d'Enginyeries Industrial, Aeroespacial i Audiovisual de Terrassa(UPC)",Spain,-2.5,3,-1,0,-1.5,2,3,4,0,4,0,3,-2.5,1,-2.5,-2.5,1,5,0,0,0,3,-1,-1.5,2,8,13,-2.5,3
+12.5,14:52,Team Crack Platoon,Rajshahi University of Engineering and Technology,Bangladesh,0,3,-1,10,-1.5,-1,3,-2,-2.5,-2,0,-1.5,-2.5,-0.5,0,0,1,-2.5,0,0,0,0,0,-1.5,2,-4,13,0,3
+15.5,15:48,Aurora FSE  Team,Shenzhen Technology University,China,-2.5,-1.5,2,10,-1.5,-1,3,4,5,-2,-2.5,3,5,1,-2.5,5,1,-2.5,3,3,-1.5,3,-1,-1.5,2,-4,-6.5,-2.5,-1.5
+-34.5,14:57,EVR Tuiasi,Technical University Gheorghe Asachi Iasi,Romania,0,-1.5,-1,-5,-1.5,2,3,-2,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,-2.5,1,-2.5,-1.5,-1.5,-1.5,-1.5,-1,-1.5,2,-4,-6.5,-2.5,-1.5
+41.0,15:36,Metropolia Motorsport,Metropolia UAS,Finland,-2.5,3,-1,0,-1.5,-1,-1.5,-2,5,4,-2.5,3,5,1,5,5,1,-2.5,0,0,0,0,-1,-1.5,2,8,13,0,3
+44.0,15:15,High Speed Kalrsruhe,University of Applied Sciences Karlsruhe,Germany,-2.5,3,-1,10,-1.5,-1,3,-2,5,4,-2.5,3,-2.5,1,5,5,1,-2.5,3,3,-1.5,3,2,-1.5,2,-4,13,-2.5,3
+20.0,15:01,Formula Student Team Delft,TU Delft,The Netherlands,-2.5,-1.5,-1,10,-1.5,2,3,-2,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,-2.5,1,-2.5,3,3,3,3,-1,-1.5,2,-4,13,-2.5,3
+-5.5,15:00,KOU RACING,KOCAELI UNIVERSITY,TURKEY,-2.5,3,-1,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,1,-2.5,-2.5,1,-2.5,-1.5,-1.5,-1.5,3,-1,-1.5,-1,-4,-6.5,-2.5,3
+-4.0,14:32,Formula Student Vitoria,University of the Basque Country-Campus of Álava,Spain,-2.5,-1.5,-1,-5,-1.5,2,3,-2,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,-2.5,-0.5,-2.5,3,3,-1.5,3,-1,-1.5,-1,-4,13,-2.5,3
+-22.0,14:51,Team Ethan Racing Electric,Vidyavardhini's College of Engineering and technology,India,-2.5,-1.5,-1,-5,-1.5,2,3,4,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,-2.5,-0.5,-2.5,-1.5,0,0,-1.5,-1,-1.5,2,-4,-6.5,5,-1.5
+20.0,14:49,PK MechPower,Cracow University of Technology ,Poland,-2.5,-1.5,2,10,-1.5,2,3,4,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,-2.5,1,-2.5,0,0,0,0,2,-1.5,2,-4,13,-2.5,3
+39.5,15:09,BGRacing,ben gurion university of the negev,israel,-2.5,-1.5,-1,10,3,2,3,4,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,3,-1.5,-1.5,-1.5,2,-1.5,2,-4,13,-2.5,-1.5
+11.5,15:02,Dynamics e.V.,OTH Regensburg,Germany,-2.5,3,-1,10,-1.5,-1,3,-2,-2.5,-2,-2.5,3,-2.5,1,-2.5,5,1,-2.5,3,3,3,3,-1,-1.5,2,-4,0,-2.5,3
+15.5,14:59,E-Traxx Düsseldorf,UAS Düsseldorf,Germany,-2.5,3,-1,10,-1.5,2,3,4,-2.5,4,-2.5,3,-2.5,1,-2.5,5,1,-2.5,3,3,-1.5,3,-1,-1.5,2,-4,-6.5,-2.5,3
+33.5,15:29,EUSS Motorsport,Escola Universitària Salesiana de Sarrià,Spain,-2.5,3,2,10,-1.5,-1,3,-2,0,4,-2.5,3,5,1,-2.5,5,1,0,3,3,-1.5,-1.5,2,-1.5,0,-4,13,-2.5,-1.5
+27.0,15:14,ISAT Formula Team,ISAT,France,-2.5,-1.5,2,-5,-1.5,2,3,-2,-2.5,4,-2.5,3,0,1,-2.5,5,1,-2.5,3,3,-1.5,3,-1,-1.5,2,8,13,-2.5,3
+13.0,14:53,FESB Racing,University of Split,Croatia,0,3,2,-5,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,-0.5,0,5,1,-2.5,3,-1.5,-1.5,-1.5,-1,-1.5,-1,-4,13,-2.5,3
+57.5,15:12,EPFL Racing Team,EPFL,Switzerland,5,3,-1,-5,-1.5,-1,3,4,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,3,-1.5,-1.5,3,2,-1.5,2,8,13,5,3
+42.5,14:44,UH Racing,University of Hertfordshire,United Kingdom,-2.5,3,-1,10,-1.5,2,3,4,-2.5,-2,-2.5,3,5,1,5,5,1,-2.5,3,-1.5,3,3,2,-1.5,2,-4,13,-2.5,-1.5
+49.5,15:02,Formula Student FEUP,University of Porto,Portugal,0,3,2,10,-1.5,2,3,-2,-2.5,-2,-2.5,3,5,1,5,5,1,5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+48.0,15:33,Ignition Racing Team electric,UAS Osnabrück,Germany,5,3,-1,10,3,-1,3,4,5,4,-2.5,3,5,1,-2.5,5,1,0,-1.5,-1.5,-1.5,-1.5,2,-1.5,-1,-4,13,-2.5,3
+44.0,14:59,Joanneum Racing Graz,UAS Graz,Austria,5,-1.5,-1,0,3,2,3,4,5,4,-2.5,3,0,1,-2.5,5,1,-2.5,-1.5,-1.5,-1.5,3,0,0,0,8,13,0,-1.5
+49.5,15:06,AGH Racing EV,AGH University of Science and Technology in Krakow,Poland,-2.5,3,2,0,-1.5,-1,3,4,0,4,-2.5,3,5,1,5,5,1,-2.5,3,3,3,3,2,-1.5,-1,-4,13,0,3
+30.5,15:40,Perseus Racing,University of Western Macedonia,Greece,-2.5,-1.5,-1,-5,-1.5,-1,3,4,-2.5,4,-2.5,3,-2.5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,8,13,-2.5,3
+25.0,15:11,Tecnun eRacing,Tecnun-University of Navarra,Spain,5,-1.5,-1,-5,3,2,3,4,-2.5,4,-2.5,3,5,1,5,-2.5,1,-2.5,0,0,0,3,2,3,2,-4,0,-2.5,3
+39.5,15:03,e-Tech Racing,UPC EEBE,Spain,5,3,-1,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,1,-2.5,-2.5,1,5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+39.5,15:14,METU Formula Racing,Middle East Technical University,Türkiye,-2.5,3,2,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,1,-2.5,5,1,-2.5,3,3,-1.5,3,2,3,2,-4,13,-2.5,-1.5
+34.5,15:53,BlueStreamlinEV,Transilvania University of Brasov,Romania,-2.5,-1.5,2,10,-1.5,2,3,-2,-2.5,4,5,3,-2.5,1,-2.5,-2.5,1,-2.5,3,3,3,3,-1,3,2,-4,13,0,-1.5
+59.0,15:08,TU Istanbul Racing,Istanbul Technical University,Türkiye,-2.5,3,2,10,-1.5,2,3,4,-2.5,4,5,3,-2.5,1,5,5,1,5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+86.0,14:56,ARUS,Seville,Spain,-2.5,3,2,10,-1.5,2,3,4,5,4,5,3,5,1,5,5,1,5,0,0,0,3,2,-1.5,2,8,13,-2.5,3
+73.5,15:08,AMZ Racing,ETH Zürich,Switzerland,5,3,2,10,3,2,3,4,0,4,5,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+99.5,15:40,Poseidon Racing Team,University of West Attica,Greece ,-2.5,3,2,10,3,-1,3,4,5,4,5,3,5,1,5,5,1,5,0,0,0,3,2,3,2,8,13,5,3
+53.0,15:49,RaceUP Electric Padova,Università degli Studi di Padova,Italy,5,3,2,10,-1.5,2,3,-2,5,4,5,3,5,1,5,5,1,-2.5,-1.5,-1.5,-1.5,3,2,-1.5,2,-4,0,0,3
+62.5,15:10,ESTACA Formula Team,ESTACA - Paris-Saclay,France,-2.5,3,2,0,3,2,3,-2,-2.5,4,5,3,5,1,5,5,1,5,3,3,3,3,-1,-1.5,2,8,0,0,3
+86.5,15:06,TU Darmstadt Racing Team e.V.,Technische Universität Darmstadt ,Germany ,5,3,2,10,-1.5,-1,3,0,5,4,5,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,8,13,5,3
+42.5,14:59,PRz Racing,Rzeszów TU,Poland,0,3,-1,10,-1.5,2,3,4,0,4,-2.5,3,-2.5,1,5,5,1,-2.5,0,0,0,3,-1,-1.5,-1,-4,13,0,3
+18.5,14:56,UOP Racing,Uni Patras,Greece,-2.5,-1.5,-1,-5,-1.5,-1,3,4,-2.5,4,-2.5,3,5,1,-2.5,5,1,-2.5,3,3,-1.5,-1.5,2,-1.5,2,-4,13,-2.5,3
+32.0,14:58,UBRacing,University of Birmingham,United Kingdom,5,-1.5,-1,0,3,-1,0,4,0,0,-2.5,3,-2.5,1,5,5,1,0,0,0,0,3,2,-1.5,-1,8,0,0,3
+34.5,15:24,E-Agle Trento Racing Team,University of Trento,Italy,-2.5,3,-1,10,-1.5,2,3,-2,0,4,-2.5,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,-4,0,0,3
+74.0,15:47,Aixtreme Racing,FH Aachen,Germany,-2.5,-1.5,2,10,-1.5,2,3,-2,-2.5,4,-2.5,3,5,1,5,5,1,5,3,3,3,3,2,3,2,8,13,-2.5,3
+29.0,15:25,STES Racing,Sinhgad Technical Education Society ,India,-2.5,-1.5,-1,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,-2.5,-0.5,5,-2.5,-0.5,-2.5,-1.5,3,-1.5,3,2,-1.5,2,8,13,-2.5,3
+57.0,15:13,Team Octane Racing,COEP Technological University,India,5,-1.5,-1,-5,3,2,3,4,0,4,-2.5,3,-2.5,1,5,-2.5,1,5,3,3,-1.5,3,2,3,2,8,13,-2.5,3
+7.5,15:24,Dynamics UPC Manresa,Escola Politecnica Superior d'Enginyeria de Manresa,Spain,0,3,-1,10,-1.5,-1,3,4,-2.5,4,-2.5,3,-2.5,-0.5,5,5,1,-2.5,0,0,0,-1.5,-1,-1.5,2,-4,-6.5,-2.5,-1.5
+12.5,15:43,municHMotorsport e.V.,UAS Munich,Germany,-2.5,3,2,-5,0,2,3,4,-2.5,-2,-2.5,3,5,1,-2.5,-2.5,1,-2.5,-1.5,-1.5,-1.5,3,2,-1.5,2,-4,13,-2.5,3
+-18.0,15:53,UGATU Racing Team EV,Ufa University of Science and Technology,Russia Federation ,-2.5,-1.5,-1,-5,-1.5,2,-1.5,-2,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,-1.5,-1.5,-1.5,-1.5,-1,-1.5,-1,-4,-6.5,0,-1.5
+58.5,15:45,Team Defianz Racing Electric,Delhi Technological University,India,-2.5,-1.5,2,10,-1.5,-1,3,4,0,4,-2.5,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,8,13,-2.5,3
+28.5,14:59,UNI Maribor Grand Prix Engineering,University of Maribor,Slovenia,-2.5,3,2,10,-1.5,-1,3,4,-2.5,4,-2.5,3,-2.5,1,5,5,-0.5,0,-1.5,3,-1.5,0,2,-1.5,2,-4,0,0,3
+20.0,15:36,E-Team Duisburg-Essen e.V.,Universität Duisburg-Essen,Germany,-2.5,3,-1,-5,3,2,3,-2,-2.5,4,-2.5,3,5,-0.5,5,-2.5,1,5,0,0,0,3,2,-1.5,2,-4,0,0,3
+54.0,14:59,RUB Motorsport e.V.,Ruhr Universität Bochum,Germany,-2.5,3,-1,10,-1.5,2,3,4,0,4,-2.5,3,-2.5,1,5,5,1,5,0,0,0,-1.5,2,-1.5,2,8,13,-2.5,-1.5
+57.0,15:04,Running Snail Racing Team,OTH Amberg-Weiden,Germany,-2.5,-1.5,-1,10,-1.5,2,3,4,5,4,-2.5,3,5,1,5,5,1,5,0,0,0,3,0,-1.5,2,-4,13,-2.5,3
+9.5,15:08,T.U.C. Racing e.V.,TU Chemnitz,Germany,-2.5,0,-1,-5,-1.5,2,3,-2,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,-1.5,-1.5,3,3,2,3,2,-4,-6.5,-2.5,3
+39.0,15:51,Bauman Racing Team,Bauman Moscow State Technical University,Russia,-2.5,-1.5,2,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,0,0,0,3,2,0,2,-4,13,0,0
+13.0,14:56,PolSl Racing,Silesian University of Technology,Poland,0,-1.5,-1,10,-1.5,-1,3,-2,-2.5,4,-2.5,3,-2.5,-0.5,-2.5,0,1,-2.5,3,-1.5,3,3,-1,-1.5,2,-4,13,-2.5,-1.5
+36.5,15:02,KA-RaceIng,KIT,Germany,-2.5,3,-1,10,-1.5,2,3,-2,-2.5,4,-2.5,3,5,1,5,5,1,-2.5,3,3,-1.5,3,2,-1.5,2,-4,0,0,3
+-8.5,15:07,UGRacing,University of Glasgow,United Kingdom,-2.5,-1.5,-1,-5,-1.5,0,0,-2,-2.5,0,0,3,-2.5,1,-2.5,-2.5,-0.5,-2.5,0,0,0,0,0,-1.5,2,0,13,-2.5,3
+24.0,15:57,Zancle E-Drive,Università degli Studi di Messina,Italy,-2.5,-1.5,-1,-5,-1.5,-1,3,-2,-2.5,4,0,3,5,1,5,-2.5,1,5,3,3,-1.5,3,-1,-1.5,2,-4,13,-2.5,3
+45.0,15:00,UPM Racing,Universidad Politécnica de Madrid ,Spain ,5,3,2,-5,-1.5,2,3,-2,-2.5,4,0,3,5,1,5,5,1,-2.5,3,3,-1.5,3,2,-1.5,2,-4,13,-2.5,3
+55.5,15:59,Team Starcraft e.V.,TU Ilmenau,Germany,-2.5,0,-1,10,3,-1,3,4,5,4,0,3,-2.5,-0.5,5,5,1,5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+62.0,15:00,BME Formula Racing Team,Budapest University of Technology and Economics,Hungary,5,3,2,0,3,2,3,4,5,4,0,3,5,1,5,5,1,5,-1.5,-1.5,0,0,2,-1.5,-1,-4,13,-2.5,3
+71.0,15:40,Rennschmiede Pforzheim,Hochschule Pforzheim,Germany,0,3,2,10,-1.5,2,3,4,-2.5,4,0,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,8,13,0,3
+29.0,15:03,TecnoCampus Motorsports,TecnoCampus,Spain,-2.5,-1.5,-1,10,-1.5,-1,3,4,-2.5,-2,0,3,-2.5,1,0,5,1,-2.5,3,3,-1.5,3,-1,-1.5,2,-4,13,0,3
+39.0,15:07,Polimarche Racing Team ,Università Politecnica delle Marche ,italy,-2.5,3,-1,0,3,-1,3,4,-2.5,-2,0,3,5,-0.5,5,-2.5,1,-2.5,3,3,3,3,2,-1.5,2,-4,13,0,3
+17.0,15:31,Zurich UAS Racing,ZHAW,Switzerland,-2.5,-1.5,-1,0,-1.5,-1,3,4,0,0,0,3,5,1,5,-2.5,1,-2.5,0,0,0,0,2,-1.5,2,-4,13,-2.5,-1.5
+38.5,15:04,UniUD E-Racing Team,University of Udine,Italy,-2.5,0,-1,0,-1.5,-1,3,4,0,4,0,3,5,1,5,5,1,0,3,3,-1.5,3,2,3,2,-4,0,0,3
+-7.5,14:58,Racing Power Münster,UAS Münster,Germany,0,3,-1,-5,-1.5,-1,3,-2,-2.5,4,0,3,-2.5,1,0,0,1,-2.5,0,0,0,0,2,-1.5,-1,-4,0,0,0
+12.5,15:00,ESTACARS,ESTACA Campus Ouest,France,-2.5,3,2,-5,-1.5,-1,3,-2,-2.5,4,0,3,-2.5,1,-2.5,-2.5,-0.5,0,3,3,-1.5,3,-1,-1.5,2,-4,13,0,3
+43.0,15:46,campustirolmotorsport,Leopold-Franzens-Universtität,Austria,-2.5,3,2,10,-1.5,2,3,-2,-2.5,4,0,3,5,1,5,5,1,0,3,3,3,3,-1,-1.5,2,-4,0,0,0
+42.0,15:36,TGU Racing,Turkish-German University,Turkey,-2.5,3,-1,10,-1.5,2,3,-2,-2.5,4,0,3,-2.5,1,5,5,1,-2.5,-1.5,-1.5,-1.5,3,-1,3,2,-4,13,5,3
+42.5,15:50,Scuderia Mensa HS RheinMain Racing,UAS RheinMain,Germany,0,3,-1,0,-1.5,2,3,-2,-2.5,0,0,3,5,1,5,5,1,0,0,0,0,0,0,-1.5,2,8,13,0,0
+10.5,14:58,formula technion,"Technion, Israel Institute of Technology",isreal,-2.5,-1.5,-1,10,3,2,3,-2,-2.5,4,0,3,-2.5,1,-2.5,5,1,-2.5,-1.5,-1.5,-1.5,-1.5,2,-1.5,2,-4,0,0,3
+30.5,15:52,ATHENE Racingteam,UniBw Munich,Germany,-2.5,-1.5,-1,10,3,-1,3,-2,-2.5,0,0,3,5,1,5,5,1,5,0,0,0,3,2,-1.5,2,-4,0,0,-1.5
+24.0,15:00,Raceyard,University of applied Sciences Kiel,Germany,0,3,0,0,-1.5,-1,3,-2,0,4,0,3,-2.5,1,5,5,1,-2.5,-1.5,-1.5,-1.5,0,2,3,0,8,0,0,0
+10.5,14:45,ART TU Cluj-Napoca,Technical University of Cluj-Napoca,Romania,-2.5,-1.5,-1,0,-1.5,2,3,-2,0,4,0,3,5,1,-2.5,5,1,-2.5,0,0,0,-1.5,2,-1.5,2,-4,0,0,3
+19.5,15:34,Sapienza Fastcharge,La Sapienza Università di Roma,Italy,-2.5,3,-1,10,-1.5,2,3,-2,-2.5,4,0,3,5,1,5,-2.5,1,-2.5,3,-1.5,-1.5,-1.5,-1,-1.5,2,-4,0,0,3
+1.5,15:39,Team Spark,University of Iceland,Iceland,-2.5,3,-1,0,-1.5,2,-1.5,-2,0,-2,0,3,0,1,5,0,1,0,0,0,0,3,-1,-1.5,2,-4,0,0,-1.5
+-9.5,15:00,HSNR Racing,UAS Niederrhein,Germany,-2.5,-1.5,0,-5,-1.5,-1,3,-2,-2.5,4,0,3,5,1,-2.5,-2.5,1,0,0,0,-1.5,0,-1,-1.5,2,0,-6.5,0,3
+35.5,15:53,Leiria Academic Racing Team,Polytechnic Institute of Leiria,Portugal,5,3,2,10,-1.5,-1,3,0,0,4,0,3,5,1,5,5,1,0,0,0,0,3,2,-1.5,2,-4,-6.5,-2.5,-1.5
+50.0,15:15,Aristotle University Racing Team Electric,Aristotle University of Thessaloniki,Greece,-2.5,-1.5,-1,10,-1.5,2,3,0,5,4,0,3,5,1,5,5,1,-2.5,0,0,0,3,2,-1.5,2,-4,13,-2.5,3
+5.0,15:00,SUAS RACING,SAKARYA UNIVERSITY OF APPLIED SCIENCES,TURKIYE,-2.5,-1.5,-1,10,-1.5,2,3,0,-2.5,4,0,3,-2.5,-0.5,0,0,-0.5,0,0,0,0,3,2,-1.5,2,-4,-6.5,-2.5,3
+54.5,14:59,CAT-Racing,Hochschule für angewandte Wissenschaften Coburg ,Germany,-2.5,3,-1,10,-1.5,2,3,-2,-2.5,4,-2.5,-1.5,5,-0.5,5,5,1,-2.5,3,3,3,3,-1,-1.5,2,8,13,-2.5,3
+23.0,15:09,E-Motion Rennteam,UAS Aalen,Germany,-2.5,3,2,0,3,2,3,4,-2.5,4,-2.5,0,5,1,5,-2.5,1,0,-1.5,-1.5,-1.5,3,2,-1.5,2,-4,0,0,3
+32.5,15:10,Blue Flash Mobility Concepts,Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen,Germany,0,0,2,10,-1.5,2,0,4,0,0,0,0,-2.5,1,0,5,1,0,0,0,0,3,-1,-1.5,2,-4,13,0,0
+30.0,15:00,Deefholt Dynamics e.V.,Private Hochschule für Wirtschaft und Technik,Germany,5,0,2,0,-1.5,0,3,4,0,4,0,0,-2.5,1,5,-2.5,1,0,0,0,0,0,-1,-1.5,2,-4,13,0,3
+-7.0,14:53,Kaiserslautern Racing Team e.V.,Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau + UAS Kaiserslautern,Germany,0,0,-1,0,-1.5,-1,3,-2,-2.5,0,0,0,5,1,5,0,1,0,0,0,0,0,0,-1.5,2,-4,-6.5,-2.5,-1.5
+-5.0,15:00,BRS Motorsport,Hochschule Bonn-Rhein-Sieg,Germany,0,-1.5,-1,0,0,0,0,0,0,0,0,0,0,-0.5,-2.5,0,-0.5,0,0,0,0,0,2,0,0,-4,0,0,3
+0.0,15:21,abcdefgh,abcdefgh,abcdefgh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,EV,Question 1,Question 2,Question 4,Question 5,Question 6,Question 7,Question 8,Question 9,Question 10,Question 11,Question 12,Question 13,Question 14,Question 15,Question 16,Question 17,Question 18,Question 19,Question 21,Question 21,Question 21,Question 22,Question 23,Question 24,Question 25,Question 26,Question 27,Question 28,Question 29
+,,,,ANSWER 1,8.83,40.5,7,No,"The TS can be active if the precharge relay is closed., If the TSAC is made from composite material, we will be asked to present samples, even if it has been approved by ASES., Babis, who acquired his Mechanical Engineering Diploma at 14-01-2025 can be registered as a team member in FS Greece 2025.",No,300mm,60.5,M4,0.5,44.2,1.2,"28, 28","D, C",929.3,"Yuki can run 1 additional Acceleration, 1 additional Skid Pad.",Five link Front Suspension,"280, 2",A,A,A,2.8,Are recognized by the EDA tool as a valid component,72000,"3 , (-1/2)",Voltage Indicator is OFF and TSAL is RED,8 segments in series of 14s5p,206,b)
+,,,,ANSWER 2,,,,,,,,,,,,1.1,,,,,,,,,,,,,,,7 segments in series of 11s7p,198,
+,,,,SCORE,5,3,2,10,3,2,3,4,5,4,5,3,5,1,5,5,1,5,3,3,3,3,2,3,2,8,13,5,3
+,,,,BLANC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+119.0,,,,BASELINE,5,3,2,10,3,2,3,4,5,4,5,3,5,1,5,5,1,5,3,3,3,3,2,3,2,8,13,5,3

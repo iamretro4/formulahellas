@@ -1,0 +1,5 @@
+{
+  "name": "Formula Hellas Registration Quiz",
+  "description": "A secure, high-performance, single-page online registration quiz for Formula Hellas, with a globally synchronized start time. The quiz becomes visible to all at a pre-set time, ensuring fairness and rule compliance.",
+  "requestFramePermissions": []
+}

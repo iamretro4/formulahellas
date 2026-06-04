@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "PowerShell(node scripts/_rebrand.mjs)",
+      "PowerShell($cmd = Get-Command npm -ErrorAction SilentlyContinue; if \\($cmd\\) { Write-Output \\(\"npm: \" + $cmd.Source\\) }; $np = Get-Command node -ErrorAction SilentlyContinue; if \\($np\\) { Write-Output \\(\"node: \" + $np.Source\\) } else { Write-Output \"node not on PATH\" }; Write-Output \"--- searching common locations ---\"; @\\(\"$env:ProgramFiles\\\\nodejs\\\\node.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\nodejs\\\\node.exe\",\"$env:APPDATA\\\\npm\\\\node.exe\",\"$env:ProgramFiles\\\\nodejs\\\\npm.cmd\"\\) | ForEach-Object { if \\(Test-Path $_\\) { Write-Output \\(\"FOUND: \" + $_\\) } })",
+      "Bash(bash -lc 'command -v node; command -v npm')",
+      "Bash(echo \"exit:$?\")",
+      "Bash(node scripts/_rebrand.mjs)",
+      "Bash(rm -f scripts/_rebrand.mjs)",
+      "Bash(rmdir scripts *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(echo \"name=[$\\(git config user.name\\)]\")",
+      "Bash(echo \"email=[$\\(git config user.email\\)]\")",
+      "Bash(git add *)"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" role="img" aria-label="Formula Hellas">
+  <rect width="420" height="100" fill="none"/>
+  <g font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="1">
+    <text x="10" y="44" font-size="34" fill="currentColor">FORMULA</text>
+    <text x="10" y="84" font-size="34" fill="#0066FF">HELLAS</text>
+  </g>
+  <rect x="300" y="18" width="8" height="64" fill="#0066FF"/>
+  <rect x="316" y="18" width="8" height="64" fill="#0066FF" opacity="0.6"/>
+  <rect x="332" y="18" width="8" height="64" fill="#0066FF" opacity="0.3"/>
+</svg>

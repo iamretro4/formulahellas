@@ -1,0 +1,44 @@
+# ============================================
+# Formula Hellas Website - .env.local Template
+# ============================================
+# Copy this content to your .env.local file
+# Replace all placeholder values with your actual credentials
+
+# ============================================
+# Sanity CMS Configuration
+# ============================================
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id_here
+NEXT_PUBLIC_SANITY_DATASET=production
+SANITY_API_TOKEN=your_sanity_api_token_here
+
+# ============================================
+# Sanity Studio Access
+# ============================================
+STUDIO_PASSWORD=your_secure_studio_password_here
+
+# ============================================
+# Content Revalidation
+# ============================================
+REVALIDATE_SECRET=your_random_secret_token_here
+
+# ============================================
+# Supabase Database (Quiz Functionality)
+# ============================================
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+
+# ============================================
+# Email Configuration (Resend)
+# ============================================
+# Get your API key from: https://resend.com/api-keys
+RESEND_API_KEY=re_your_resend_api_key_here
+
+# Email address to send from (for quiz emails)
+# Must match a verified email in Resend dashboard
+FROM_EMAIL=Formula Hellas <quiz@formulahellas.gr>
+
+# Email addresses to receive form submission notifications
+# Comma-separated list
+NOTIFICATION_EMAILS=notifications@formulahellas.gr,technical@formulahellas.gr
+
+

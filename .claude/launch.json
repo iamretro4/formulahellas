@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "npm install --no-audit --no-fund && npm run dev"],
+      "port": 3333
+    }
+  ]
+}
