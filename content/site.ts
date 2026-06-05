@@ -152,13 +152,8 @@ export const rules = {
 /* ----------------------- REGISTRATION & ELIGIBILITY ----------------------- */
 
 export const registration = {
-  title: 'Registration & Eligibility',
+  title: 'Registration',
   intro: `Registration for Formula Hellas 2026 is first come, first served, with 12 Electric (EV) and 12 Internal Combustion (CV) slots. Registration opens ${REGISTRATION_OPENS} and closes ${REGISTRATION_CLOSES}.`,
-
-  eligibility: {
-    heading: 'Eligibility',
-    body: 'Eligibility follows the Formula Student Rules 2026 (Section A4): participants must be university students, or recent graduates of 2026 (from January 2026 onward).',
-  },
 
   window: {
     heading: 'Registration window',

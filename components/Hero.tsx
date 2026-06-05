@@ -80,7 +80,7 @@ export default function Hero() {
             href="/registration"
             className="inline-flex items-center gap-2 px-7 py-4 rounded-lg border border-gray-300 text-gray-800 font-semibold hover:border-primary-blue hover:text-primary-blue-dark hover:bg-primary-blue/5 transition-colors"
           >
-            Registration &amp; eligibility
+            Registration
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

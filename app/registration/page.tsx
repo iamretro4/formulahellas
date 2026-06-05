@@ -5,9 +5,9 @@ import { registration } from '@/content/site';
 import { REGISTRATION_EMAIL, COMING_SOON, SITE_URL } from '@/lib/site-config';
 
 export const metadata = generateSEOMetadata({
-  title: 'Registration & Eligibility',
+  title: 'Registration',
   description:
-    'How to register for Formula Hellas 2026: eligibility, the first-come first-served slots, the registration window, the Formula Hellas Hub, and fees.',
+    'How to register for Formula Hellas 2026: the first-come first-served slots, the registration window, and the Formula Hellas Hub.',
   url: '/registration',
 });
 
@@ -48,11 +48,7 @@ export default function RegistrationPage() {
             </dl>
           </section>
 
-          {/* Eligibility */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">{registration.eligibility.heading}</h2>
-            <p className="text-gray-700">{registration.eligibility.body}</p>
-          </section>
+
 
           {/* How to register */}
           <section className="mb-12">

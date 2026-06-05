@@ -126,7 +126,7 @@ export default async function EventPage({
               href="/registration"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary-blue text-white font-bold rounded-xl hover:bg-primary-blue-dark transition-all transform hover:scale-105 shadow-lg"
             >
-              Registration &amp; eligibility
+              Registration
               <ArrowRight className="w-5 h-5" />
             </Link>
           </section>
