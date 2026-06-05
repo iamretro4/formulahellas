@@ -41,7 +41,7 @@ export const INFO_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /*  Social links — set a URL to enable, leave null for "Coming soon".         */
 /* -------------------------------------------------------------------------- */
 
-export const INSTAGRAM_URL: string | null = null;
+export const INSTAGRAM_URL: string | null = 'https://www.instagram.com/formula.hellas/';
 export const LINKEDIN_URL: string | null = null;
 export const FACEBOOK_URL: string | null = null;
 
