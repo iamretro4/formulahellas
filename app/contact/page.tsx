@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { Instagram, Linkedin, ExternalLink } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
 import {
   CONTACT_EMAIL,
   TECHNICAL_EMAIL,
@@ -17,8 +16,7 @@ import {
 /**
  * Contact Form
  *
- * Form submissions are stored in Supabase in the 'contact_submissions' table.
- * To view submissions, access your Supabase dashboard and query that table.
+ * Form submissions are sent via the send-form-notification API (Resend).
  */
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
@@ -31,38 +29,25 @@ export default function ContactPage() {
     setSubmitStatus('idle');
 
     try {
-      const { error } = await supabase.from('contact_submissions').insert([
-        {
-          name: formData.name,
-          email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
-      ]);
+      const response = await fetch('/api/send-form-notification', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          formType: 'contact',
+          formData: {
+            Name: formData.name,
+            Email: formData.email,
+            Subject: formData.subject,
+            Message: formData.message,
+          },
+        }),
+      });
 
-      if (error) {
-        setSubmitStatus('error');
-      } else {
-        try {
-          await fetch('/api/send-form-notification', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              formType: 'contact',
-              formData: {
-                Name: formData.name,
-                Email: formData.email,
-                Subject: formData.subject,
-                Message: formData.message,
-              },
-            }),
-          });
-        } catch {
-          // Don't fail the form submission if email fails
-        }
-
+      if (response.ok) {
         setSubmitStatus('success');
         setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setSubmitStatus('error');
       }
     } catch {
       setSubmitStatus('error');

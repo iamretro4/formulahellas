@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack -p 3333",
-    "build": "next build --webpack",
+    "dev": "next dev --turbo -p 3333",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -13,7 +13,6 @@
     "@sanity/client": "^7.12.1",
     "@sanity/image-url": "^1.2.0",
     "@sanity/vision": "^4.14.2",
-    "@supabase/supabase-js": "^2.81.1",
     "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^1.2.1",
     "clsx": "^2.1.1",
