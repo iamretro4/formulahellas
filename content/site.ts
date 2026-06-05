@@ -194,34 +194,6 @@ export const registration = {
   },
 };
 
-/* ---------------------------------- FEES ---------------------------------- */
-
-export const fees = {
-  title: 'Fees',
-  intro:
-    'The competition fee covers team participation and the campsite for the full duration of the event.',
-  items: [
-    {
-      label: 'Competition fee',
-      value: '2,000€ + VAT',
-      detail: 'Covers team participation and campsite for the duration of the competition, for up to 25 team members.',
-    },
-    {
-      label: 'Each additional member',
-      value: '50€ + VAT',
-      detail: 'For every team member beyond the first 25.',
-    },
-  ],
-  payment: {
-    heading: 'Payment',
-    body: 'After confirmation, the Serres Racing Circuit account details and a proforma invoice are shared with the team. Payment is due within 7 days of the invoice date.',
-  },
-  refunds: {
-    heading: 'Cancellation & refunds',
-    body: 'A 100% net refund applies if the competition is cancelled.',
-  },
-};
-
 /* --------------------------------- CONTACT -------------------------------- */
 
 export const contact = {

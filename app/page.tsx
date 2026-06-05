@@ -22,7 +22,7 @@ const highlightIcons = [Layers, Flag, Sparkles];
 
 const quickLinks = [
   { href: '/about', title: 'About', desc: 'Classes, venue and our mission', Icon: FileText },
-  { href: '/registration', title: 'Registration', desc: 'Eligibility, slots and fees', Icon: ClipboardList },
+  { href: '/registration', title: 'Registration', desc: 'Eligibility and team slots', Icon: ClipboardList },
   { href: '/join-us', title: 'Join Us', desc: 'Become a judge or volunteer', Icon: Users },
   { href: '/contact', title: 'Contact', desc: 'Get in touch with us', Icon: Mail },
 ];

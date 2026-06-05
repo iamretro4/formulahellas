@@ -29,13 +29,13 @@ export const SITE_URL =
 /* -------------------------------------------------------------------------- */
 
 /** General inquiries. */
-export const CONTACT_EMAIL: string | null = null;
+export const CONTACT_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Technical inquiries. */
-export const TECHNICAL_EMAIL: string | null = null;
+export const TECHNICAL_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Team registration (team captains email this to register). */
-export const REGISTRATION_EMAIL: string | null = null;
+export const REGISTRATION_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Billing / payment / invoice questions. */
-export const INFO_EMAIL: string | null = null;
+export const INFO_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 
 /* -------------------------------------------------------------------------- */
 /*  Social links — set a URL to enable, leave null for "Coming soon".         */
@@ -100,7 +100,7 @@ export const REGISTRATION_CLOSES = 'when slots fill, no later than 13-06-2026';
 /* -------------------------------------------------------------------------- */
 
 export const EMAIL_FROM_NOTIFICATIONS =
-  process.env.FROM_EMAIL || 'Formula Hellas <noreply@formulahellas.gr>';
+  process.env.FROM_EMAIL || 'Formula Hellas <infofhsrc@serrescircuit.gr>';
 export const EMAIL_BASE_URL = SITE_URL;
 
 /** Convenience label used wherever a value is not yet available. */

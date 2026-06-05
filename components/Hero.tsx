@@ -59,7 +59,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
           {REGISTRATION_ENABLED && REGISTRATION_EMAIL ? (
             <a
-              href={`mailto:${REGISTRATION_EMAIL}`}
+              href={`mailto:${REGISTRATION_EMAIL}?subject=Formula%20Hellas%202026%20Team%20Registration&body=Dear%20Formula%20Hellas%20Organizers%2C%0A%0AWe%20would%20like%20to%20register%20our%20team%20for%20Formula%20Hellas%202026.%20Below%20are%20our%20details%3A%0A%0A1.%20Team%20Name%3A%20%0A2.%20University%3A%20%0A3.%20Class%20(EV%20or%20CV)%3A%20%0A4.%20Team%20Captain%20Full%20Name%3A%20%0A5.%20Team%20Captain%20Phone%20Number%3A%20%0A%0AThank%20you!`}
               className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-primary-blue text-white font-bold shadow-glow-blue ring-1 ring-inset ring-white/15 hover:-translate-y-0.5 transition-transform"
             >
               Register

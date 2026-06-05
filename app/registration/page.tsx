@@ -1,8 +1,8 @@
 import { generateMetadata as generateSEOMetadata, generateBreadcrumbStructuredData } from '@/lib/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { CalendarClock, Mail, FileCheck2, CreditCard, RotateCcw } from 'lucide-react';
-import { registration, fees } from '@/content/site';
-import { REGISTRATION_EMAIL, INFO_EMAIL, COMING_SOON, SITE_URL } from '@/lib/site-config';
+import { CalendarClock, Mail, FileCheck2 } from 'lucide-react';
+import { registration } from '@/content/site';
+import { REGISTRATION_EMAIL, COMING_SOON, SITE_URL } from '@/lib/site-config';
 
 export const metadata = generateSEOMetadata({
   title: 'Registration & Eligibility',
@@ -72,7 +72,7 @@ export default function RegistrationPage() {
             <div className="mt-8 bg-gray-50 border-2 border-gray-100 rounded-2xl p-6 text-center">
               {REGISTRATION_EMAIL ? (
                 <a
-                  href={`mailto:${REGISTRATION_EMAIL}?subject=Formula%20Hellas%20Registration`}
+                  href={`mailto:${REGISTRATION_EMAIL}?subject=Formula%20Hellas%202026%20Team%20Registration&body=Dear%20Formula%20Hellas%20Organizers%2C%0A%0AWe%20would%20like%20to%20register%20our%20team%20for%20Formula%20Hellas%202026.%20Below%20are%20our%20details%3A%0A%0A1.%20Team%20Name%3A%20%0A2.%20University%3A%20%0A3.%20Class%20(EV%20or%20CV)%3A%20%0A4.%20Team%20Captain%20Full%20Name%3A%20%0A5.%20Team%20Captain%20Phone%20Number%3A%20%0A%0AThank%20you!`}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-primary-blue text-white font-bold rounded-xl hover:bg-primary-blue-dark transition-all transform hover:scale-105 shadow-lg"
                 >
                   <Mail className="w-5 h-5" />
@@ -112,53 +112,6 @@ export default function RegistrationPage() {
                 </li>
               ))}
             </ul>
-          </section>
-
-          {/* Fees */}
-          <section id="fees" className="mb-12 scroll-mt-24">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">{fees.title}</h2>
-            <p className="text-gray-700 mb-6">{fees.intro}</p>
-            <div className="space-y-4">
-              {fees.items.map((item) => (
-                <div
-                  key={item.label}
-                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 bg-gray-50 border-2 border-gray-100 rounded-xl p-5"
-                >
-                  <div>
-                    <p className="font-bold text-gray-900">{item.label}</p>
-                    <p className="text-sm text-gray-600">{item.detail}</p>
-                  </div>
-                  <p className="text-xl font-extrabold text-primary-blue whitespace-nowrap">{item.value}</p>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <div className="flex items-center gap-2 mb-2">
-                  <CreditCard className="w-5 h-5 text-primary-blue" />
-                  <h3 className="font-bold text-gray-900">{fees.payment.heading}</h3>
-                </div>
-                <p className="text-gray-700 text-sm">{fees.payment.body}</p>
-                <p className="text-gray-700 text-sm mt-2">
-                  Payment issues:{' '}
-                  {INFO_EMAIL ? (
-                    <a href={`mailto:${INFO_EMAIL}`} className="text-primary-blue hover:underline font-medium">
-                      {INFO_EMAIL}
-                    </a>
-                  ) : (
-                    <span className="font-semibold">{COMING_SOON}</span>
-                  )}
-                </p>
-              </div>
-              <div>
-                <div className="flex items-center gap-2 mb-2">
-                  <RotateCcw className="w-5 h-5 text-primary-blue" />
-                  <h3 className="font-bold text-gray-900">{fees.refunds.heading}</h3>
-                </div>
-                <p className="text-gray-700 text-sm">{fees.refunds.body}</p>
-              </div>
-            </div>
           </section>
         </div>
       </div>

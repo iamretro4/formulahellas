@@ -7,7 +7,7 @@ A modern, responsive website for Formula Hellas, a new Formula Student competiti
 - **Modern Racing-Inspired Design**: Clean, modern design with racing-inspired accents and animations
 - **Enhanced UX**: Smooth scroll animations, interactive components, and improved mobile experience
 - **CMS Integration**: Optional content management powered by Sanity.io (news, documents)
-- **Pages**: Home, Competition 2026, About (incl. Classes & Venue), Registration & Fees, Rules & Documents, Join Us, Contact, Team Portal
+- **Pages**: Home, Competition 2026, About (incl. Classes & Venue), Registration, Rules & Documents, Join Us, Contact, Team Portal
 - **SEO Optimized**: Built-in SEO features with Next.js
 - **Type Safe**: Full TypeScript support
 
@@ -26,7 +26,7 @@ A modern, responsive website for Formula Hellas, a new Formula Student competiti
 Two files hold everything you are likely to change:
 
 - **`lib/site-config.ts`** — brand name, production domain, and all contact details. Anything set to `null` (emails, social links, the Hub URL) renders as **"Coming soon"** in the UI with its link/button disabled. Replace a `null` with a real value to enable it. **Do not invent values** — leave them `null` until known.
-- **`content/site.ts`** — all marketing copy (Home, About, Classes, Venue, Rules, Registration, Fees, Contact), in plain editable strings. Dates use DD-MM-YYYY format.
+- **`content/site.ts`** — all marketing copy (Home, About, Classes, Venue, Rules, Registration, Contact), in plain editable strings. Dates use DD-MM-YYYY format.
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ Access the Sanity Studio at `/studio` to manage optional content (news, document
 app/                    # Next.js App Router pages
 ├── events/[year]/      # Competition 2026 page
 ├── about/              # About (incl. Classes & Venue)
-├── registration/       # Registration, eligibility & fees
+├── registration/       # Registration & eligibility
 ├── rules/              # Rules & Documents
 ├── join-us/            # Join Us (judge / scrutineer / volunteer)
 ├── contact/            # Contact
