@@ -12,7 +12,7 @@
 export const SITE_NAME = 'Formula Hellas';
 
 export const SITE_TAGLINE =
-  'Built by Formula Student alumni. Hosted at the Serres Racing Circuit, the only FIA- and FIM-accredited circuit in Greece.';
+  'Built by Formula Student alumni. Hosted at the Serres Racing Circuit, the only FIA and FIM accredited circuit in Greece.';
 
 export const SITE_DESCRIPTION =
   'Formula Hellas is a new Formula Student competition, part of the Formula Student World Competition Series, hosted at the Serres Racing Circuit in Northern Greece. The first edition runs 02–07 August 2026.';
@@ -31,7 +31,7 @@ export const SITE_URL =
 /** General inquiries. */
 export const CONTACT_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Technical inquiries. */
-export const TECHNICAL_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
+export const TECHNICAL_EMAIL: string | null = 'technicalfhsrc@serrescircuit.gr';
 /** Team registration (team captains email this to register). */
 export const REGISTRATION_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Billing / payment / invoice questions. */

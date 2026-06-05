@@ -67,7 +67,7 @@ export default function VenueShowcase({
     '@type': 'SportsActivityLocation',
     name: VENUE_NAME,
     description:
-      'The largest racing circuit in the Balkans and the only FIA- and FIM-accredited motorsport facility in Greece, operating since 1998 and built to the safety standards for racing up to Formula 3.',
+      'The largest racing circuit in the Balkans and the only FIA and FIM accredited motorsport facility in Greece, operating since 1998 and built to the safety standards for racing up to Formula 3.',
     url: VENUE_URL,
     foundingDate: '1998',
     telephone: VENUE_PHONE,

@@ -22,7 +22,7 @@ import {
 export const hero = {
   heading: 'Formula Hellas',
   tagline:
-    'Built by Formula Student alumni. Hosted at the Serres Racing Circuit, the only FIA- and FIM-accredited circuit in Greece.',
+    'Built by Formula Student alumni. Hosted at the Serres Racing Circuit, the only FIA and FIM accredited circuit in Greece.',
   keyFacts: [
     { label: 'Dates', value: COMPETITION_DATES },
     { label: 'Venue', value: COMPETITION_LOCATION },
@@ -94,7 +94,7 @@ export const about = {
 
   venue: {
     heading: 'The venue',
-    body: `Formula Hellas is hosted at the ${VENUE_NAME}, the largest racing circuit in the Balkans and the only FIA- and FIM-accredited motorsport facility in Greece. Operating since 1998 and built to the safety standards required for racing up to Formula 3, the circuit offers the full range of facilities needed for Formula Student dynamic events.`,
+    body: `Formula Hellas is hosted at the ${VENUE_NAME}, the largest racing circuit in the Balkans and the only FIA and FIM accredited motorsport facility in Greece. Operating since 1998 and built to the safety standards required for racing up to Formula 3, the circuit offers the full range of facilities needed for Formula Student dynamic events.`,
     facilities: [
       {
         title: 'Exclusive pit boxes',

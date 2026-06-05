@@ -3,6 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { CalendarClock, Mail, FileCheck2 } from 'lucide-react';
 import { registration } from '@/content/site';
 import { REGISTRATION_EMAIL, COMING_SOON, SITE_URL } from '@/lib/site-config';
+import RegisterButton from '@/components/RegisterButton';
 
 export const metadata = generateSEOMetadata({
   title: 'Registration',
@@ -67,13 +68,10 @@ export default function RegistrationPage() {
             {/* Register CTA — disabled until REGISTRATION_EMAIL is set. */}
             <div className="mt-8 bg-gray-50 border-2 border-gray-100 rounded-2xl p-6 text-center">
               {REGISTRATION_EMAIL ? (
-                <a
-                  href={`mailto:${REGISTRATION_EMAIL}?subject=Formula%20Hellas%202026%20Team%20Registration&body=Dear%20Formula%20Hellas%20Organizers%2C%0A%0AWe%20would%20like%20to%20register%20our%20team%20for%20Formula%20Hellas%202026.%20Below%20are%20our%20details%3A%0A%0A1.%20Team%20Name%3A%20%0A2.%20University%3A%20%0A3.%20Class%20(EV%20or%20CV)%3A%20%0A4.%20Team%20Captain%20Full%20Name%3A%20%0A5.%20Team%20Captain%20Phone%20Number%3A%20%0A%0AThank%20you!`}
+                <RegisterButton
+                  email={REGISTRATION_EMAIL}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-primary-blue text-white font-bold rounded-xl hover:bg-primary-blue-dark transition-all transform hover:scale-105 shadow-lg"
-                >
-                  <Mail className="w-5 h-5" />
-                  Register by email
-                </a>
+                />
               ) : (
                 <button
                   type="button"
