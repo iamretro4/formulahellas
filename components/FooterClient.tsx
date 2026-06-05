@@ -32,7 +32,7 @@ const joinUsLinks = [
 ];
 
 export default function FooterClient() {
-  const contactEmails = [CONTACT_EMAIL, TECHNICAL_EMAIL].filter(Boolean) as string[];
+  const contactEmails = Array.from(new Set([CONTACT_EMAIL, TECHNICAL_EMAIL].filter(Boolean))) as string[];
 
   return (
     <footer className="bg-ink text-gray-300 border-t border-white/10 relative overflow-hidden">
