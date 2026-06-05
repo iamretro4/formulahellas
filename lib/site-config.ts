@@ -83,10 +83,10 @@ export const TEAM_PORTAL_URL: string | null = null;
 /* -------------------------------------------------------------------------- */
 /*  Application Google Forms — set to null to fall back to direct email.      */
 /* -------------------------------------------------------------------------- */
-export const APPLY_JUDGE_URL: string | null = null;
-export const APPLY_SCRUTINEER_URL: string | null = null;
-export const APPLY_VOLUNTEER_URL: string | null = null;
-export const APPLICATIONS_ENABLED = false;
+export const APPLY_JUDGE_URL: string | null = 'https://docs.google.com/forms/d/e/1FAIpQLSc7GysKvKyjWkXhf9jUd4j6dFwUL2e76ud9cuL9CLv9rbbK5g/viewform?usp=dialog';
+export const APPLY_SCRUTINEER_URL: string | null = 'https://docs.google.com/forms/d/e/1FAIpQLSfpjrcRlmrMmDGh2-etFPPL07EenVwvzKZeleUCl-UE1Gwr4A/viewform?usp=dialog';
+export const APPLY_VOLUNTEER_URL: string | null = 'https://docs.google.com/forms/d/e/1FAIpQLSc_eblYXqoTzIVO97QBgw2nuH4dPXOwAuAnq__W4zNfhNAUGw/viewform?usp=dialog';
+export const APPLICATIONS_ENABLED = true;
 
 /* -------------------------------------------------------------------------- */
 /*  Key dates (display strings use DD-MM-YYYY per the brand guidelines).      */
