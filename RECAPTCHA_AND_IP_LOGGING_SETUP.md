@@ -31,8 +31,8 @@ This document explains the reCAPTCHA and IP logging features that have been adde
 2. **Add Environment Variables:**
    Add these to your `.env.local` and Vercel environment variables:
    ```
-   NEXT_PUBLIC_RECAPTCHA_SITE_KEY=6Lc4V1UsAAAAAIsTVWjshZlmO8t8mCole-iAWqhM
-   RECAPTCHA_SECRET_KEY=6Lc4V1UsAAAAAO3DLyyPFLX33QV7Xl26_zXMHvXH
+   NEXT_PUBLIC_RECAPTCHA_SITE_KEY=your_recaptcha_site_key_here
+   RECAPTCHA_SECRET_KEY=your_recaptcha_secret_key_here
    ```
    
    **Important:** 

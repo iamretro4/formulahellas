@@ -45,9 +45,9 @@ export async function GET(request: NextRequest) {
       step1: 'Go to Vercel Dashboard → Your Project → Settings → Environment Variables',
       step2: 'Add the following variables for Production, Preview, and Development:',
       required: [
-        'NEXT_PUBLIC_SANITY_PROJECT_ID=4xb55exq',
+        'NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id_here',
         'NEXT_PUBLIC_SANITY_DATASET=production',
-        'STUDIO_PASSWORD=1926',
+        'STUDIO_PASSWORD=your_secure_password_here',
         'SANITY_API_TOKEN=your_token_here (optional)',
       ],
       step3: 'After adding variables, go to Deployments → Click "Redeploy" on latest deployment',

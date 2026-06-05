@@ -27,7 +27,7 @@
       "Bash(echo \"files in commit: $\\(git ls-tree -r --name-only HEAD)",
       "Bash(rm -rf app/registration-tests app/team-portal/team-access app/api/quiz app/api/send-quiz-email app/api/registration-results app/api/test-email app/test-email)",
       "Bash(rm -f lib/quiz-cache.ts lib/registration-results.ts proxy.ts sanity/schemas/registrationQuiz.ts)",
-      "Bash(rm -f public/cv-registration-results.json public/ev-registration-results.json public/quiz-questions-template.csv \"FIHU Quiz RE Score.csv\" \"FIHU Quiz RE Scores.csv\")",
+      "Bash(rm -f public/cv-registration-results.json public/ev-registration-results.json public/quiz-questions-template.csv \"FH Quiz RE Score.csv\" \"FH Quiz RE Scores.csv\")",
       "Bash(ls *.csv)",
       "Bash(npm run *)",
       "Bash(NEXT_PUBLIC_SANITY_PROJECT_ID=dummyproject NEXT_PUBLIC_SANITY_DATASET=production npm run build)",
