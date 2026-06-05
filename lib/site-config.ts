@@ -81,6 +81,13 @@ export const VENUE_MAPS_EMBED =
 export const TEAM_PORTAL_URL: string | null = null;
 
 /* -------------------------------------------------------------------------- */
+/*  Application Google Forms — set to null to fall back to direct email.      */
+/* -------------------------------------------------------------------------- */
+export const APPLY_JUDGE_URL: string | null = null;
+export const APPLY_SCRUTINEER_URL: string | null = null;
+export const APPLY_VOLUNTEER_URL: string | null = null;
+
+/* -------------------------------------------------------------------------- */
 /*  Key dates (display strings use DD-MM-YYYY per the brand guidelines).      */
 /* -------------------------------------------------------------------------- */
 
