@@ -33,7 +33,7 @@ export const CONTACT_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Technical inquiries. */
 export const TECHNICAL_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Team registration (team captains email this to register). */
-export const REGISTRATION_EMAIL: string | null = null;
+export const REGISTRATION_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Billing / payment / invoice questions. */
 export const INFO_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 
