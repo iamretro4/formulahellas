@@ -33,7 +33,7 @@ export const CONTACT_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Technical inquiries. */
 export const TECHNICAL_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 /** Team registration (team captains email this to register). */
-export const REGISTRATION_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
+export const REGISTRATION_EMAIL: string | null = null;
 /** Billing / payment / invoice questions. */
 export const INFO_EMAIL: string | null = 'infofhsrc@serrescircuit.gr';
 
@@ -86,6 +86,7 @@ export const TEAM_PORTAL_URL: string | null = null;
 export const APPLY_JUDGE_URL: string | null = null;
 export const APPLY_SCRUTINEER_URL: string | null = null;
 export const APPLY_VOLUNTEER_URL: string | null = null;
+export const APPLICATIONS_ENABLED = false;
 
 /* -------------------------------------------------------------------------- */
 /*  Key dates (display strings use DD-MM-YYYY per the brand guidelines).      */

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { CONTACT_EMAIL, COMING_SOON, APPLY_VOLUNTEER_URL } from '@/lib/site-config';
+import { CONTACT_EMAIL, COMING_SOON, APPLY_VOLUNTEER_URL, APPLICATIONS_ENABLED } from '@/lib/site-config';
 import { Mail } from 'lucide-react';
 
 export default function VolunteerApplicationPage() {
@@ -43,7 +43,7 @@ export default function VolunteerApplicationPage() {
                 Send us an email with your application details using the template below.
               </p>
               
-              {CONTACT_EMAIL ? (
+              {CONTACT_EMAIL && APPLICATIONS_ENABLED ? (
                 <a
                   href={`mailto:${CONTACT_EMAIL}?subject=${emailSubject}&body=${emailBody}`}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-[#2D4DF5] text-white font-bold rounded-xl hover:bg-[#1E34CC] transition-all transform hover:scale-105 shadow-xl text-lg"
@@ -54,7 +54,7 @@ export default function VolunteerApplicationPage() {
               ) : (
                 <button
                   disabled
-                  className="inline-block px-8 py-4 bg-gray-300 text-gray-500 font-bold rounded-xl cursor-not-allowed shadow text-lg"
+                  className="inline-block px-8 py-4 bg-gray-300 text-gray-500 font-bold rounded-xl cursor-not-allowed shadow text-lg animate-pulse-subtle"
                 >
                   Apply ({COMING_SOON})
                 </button>

@@ -1,6 +1,8 @@
 import { getPageContent } from '@/lib/sanity.queries';
 import { generateMetadata as generateSEOMetadata } from "@/lib/seo";
 import { joinUs } from '@/content/site';
+import Link from 'next/link';
+import { APPLICATIONS_ENABLED, COMING_SOON } from '@/lib/site-config';
 
 // Revalidate this page every 60 seconds (fallback if webhook fails)
 export const revalidate = 60;
@@ -54,14 +56,21 @@ export default async function JoinUsPage() {
               <li>• Provide feedback to student teams</li>
               <li>• Network with industry professionals</li>
             </ul>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc7GysKvKyjWkXhf9jUd4j6dFwUL2e76ud9cuL9CLv9rbbK5g/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
-            >
-              Apply Now
-            </a>
+            {APPLICATIONS_ENABLED ? (
+              <Link
+                href="/apply/judge"
+                className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
+              >
+                Apply Now
+              </Link>
+            ) : (
+              <button
+                disabled
+                className="inline-block px-6 py-3 bg-gray-300 text-gray-500 font-semibold rounded-lg cursor-not-allowed text-sm"
+              >
+                Apply ({COMING_SOON})
+              </button>
+            )}
           </div>
 
           {/* Scrutineer */}
@@ -92,14 +101,21 @@ export default async function JoinUsPage() {
               <li>• Ensure fair competition</li>
               <li>• Work closely with technical teams</li>
             </ul>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfpjrcRlmrMmDGh2-etFPPL07EenVwvzKZeleUCl-UE1Gwr4A/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
-            >
-              Apply Now
-            </a>
+            {APPLICATIONS_ENABLED ? (
+              <Link
+                href="/apply/scrutineer"
+                className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
+              >
+                Apply Now
+              </Link>
+            ) : (
+              <button
+                disabled
+                className="inline-block px-6 py-3 bg-gray-300 text-gray-500 font-semibold rounded-lg cursor-not-allowed text-sm"
+              >
+                Apply ({COMING_SOON})
+              </button>
+            )}
           </div>
 
           {/* Volunteer */}
@@ -130,14 +146,21 @@ export default async function JoinUsPage() {
               <li>• Support teams and visitors</li>
               <li>• Gain valuable event experience</li>
             </ul>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc_eblYXqoTzIVO97QBgw2nuH4dPXOwAuAnq__W4zNfhNAUGw/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
-            >
-              Apply Now
-            </a>
+            {APPLICATIONS_ENABLED ? (
+              <Link
+                href="/apply/volunteer"
+                className="inline-block px-6 py-3 bg-gradient-primary text-white font-semibold rounded-lg hover:shadow-lg transition-all transform hover:scale-105 text-sm"
+              >
+                Apply Now
+              </Link>
+            ) : (
+              <button
+                disabled
+                className="inline-block px-6 py-3 bg-gray-300 text-gray-500 font-semibold rounded-lg cursor-not-allowed text-sm"
+              >
+                Apply ({COMING_SOON})
+              </button>
+            )}
           </div>
         </div>
 
