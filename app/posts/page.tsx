@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { type SanityDocument } from 'next-sanity';
 import { getPosts } from '@/lib/sanity.queries';
 import { generateMetadata as generateSEOMetadata, generateBreadcrumbStructuredData } from "@/lib/seo";
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -38,7 +37,7 @@ export default async function PostsPage() {
         />
         <h1 className="text-4xl font-bold mb-8">News & Posts</h1>
       <ul className="flex flex-col gap-y-4">
-        {posts.map((post: SanityDocument) => (
+        {posts.map((post: any) => (
           <li className="hover:underline" key={post._id}>
             <Link href={`/posts/${post.slug.current}`}>
               <h2 className="text-xl font-semibold">{post.title}</h2>

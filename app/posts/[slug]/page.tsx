@@ -1,4 +1,3 @@
-import { PortableText, type SanityDocument } from 'next-sanity';
 import { getPostBySlug, getPosts } from '@/lib/sanity.queries';
 import { urlFor } from '@/sanity/lib/image';
 import Link from 'next/link';
@@ -13,7 +12,7 @@ const options = { next: { revalidate: 30 } };
 
 export async function generateStaticParams() {
   const posts = await getPosts().catch(() => []);
-  return posts.map((post: SanityDocument) => ({
+  return posts.map((post: any) => ({
     slug: post.slug.current,
   }));
 }
@@ -114,10 +113,9 @@ export default async function PostPage({
           </div>
         )}
         <h1 className="text-4xl font-bold mb-8">{post.title}</h1>
-      <div className="prose prose-lg max-w-none">
-        <p>Published: {new Date(post.publishedAt).toLocaleDateString()}</p>
-        {Array.isArray(post.body) && <PortableText value={post.body} />}
-      </div>
+        <div className="prose prose-lg max-w-none">
+          <p>Published: {new Date(post.publishedAt).toLocaleDateString()}</p>
+        </div>
     </main>
     </>
   );
